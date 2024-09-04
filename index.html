@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    
+    <!-- <h1>Hello World</h1>
+    <h1>Hello Pakistan</h1>
+    <p>I am learning JavaScript This is my first Programming Language.</p>
+    <span>Submit your Feedback!
+        <button onclick="document.write('Thank you... for your Feedback!')">Submit</button></span>
+    <button onclick="alert(this)">Click me</button>
+    <br /><br .><br /><br />
+    <hr />
+    <br /> -->
+    <!-- To Do List Starting -->
+
+    <h1 class="ourClass" id="ourHeading">To-Do App</h1>
+    <form id="ourForm">
+      <input
+        id="ourField"
+        type="text"
+        autocomplete="off"
+        placeholder="Enter your items"
+        required
+        onfocus="this.style.backgroundColor = 'lightgrey';this.style.color = 'black'"
+        onblur="this.style.color = 'red';"
+      />
+      <button class="creItems">Create Items</button>
+    </form>
+
+    <br />
+
+    <h2 class="needHead">Need To Do:</h2>
+    <ul id="ourList"></ul>
+
+    <!-- To Do List Ending -->
+
+    <!-- DOM Manipulation Starting -->
+
+    <h1 class="domHeading">Dom Practice</h1>
+
+    <div class="domPractice">
+
+    </div>
+
+    <!-- DOM Manipulation Ending -->
+
+    <hr />
+
+    <a href="#" onclick="var a = 'Khizar'; alert('Hello '+a)">Click me</a>
+
+    <button class="ourClass" onclick="clickBtn()">Click Button</button>
+    <br />
+    <img
+      src="./images/Favicon.png"
+      width="100px"
+      alt=""
+      onmouseout="clickBtn()"
+    />
+
+    <input
+      type="text"
+      id="inputData"
+      style="margin-right: 10px"
+      placeholder="Enter Data"
+      onkeydown="alert('Hello World!')"
+    /><button onclick="getName()">Submit</button>
+    <p id="para"></p>
+
+     <!-- Age Change BTN -->
+
+     <button onclick='ageChanged()'>Change Age</button><br /><br />
+
+     <input type="text" id="input-text">
+     <button onclick="submit()">Submit</button>
+
+     <button onclick="console.log(this)">Check This</button>
+
+    <script src="./App.js"></script>
+    <script src="./To-Do-App.js"></script>
+  </body>
+</html>
