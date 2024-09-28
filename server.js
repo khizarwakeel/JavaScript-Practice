@@ -9,3 +9,12 @@ while (x > 1) {
     console.log(x,"as");
     x--
 }
+
+function sayHi() {
+    console.log(name);
+    console.log(age);
+    var name = 'Lydia';
+    let age = 21;
+}
+
+sayHi();

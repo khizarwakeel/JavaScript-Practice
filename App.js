@@ -534,7 +534,7 @@ console.log(foods);
 
 console.log("After =======>");
 
-foods.splice(1,2,"Roll");
+foods.splice(1, 2, "Roll");
 console.log(foods);
 
 var foods = ["Pizza", "Burger", "Sandwitch", "Tikka", "Biryani", "Karahi"];
@@ -555,7 +555,7 @@ console.log(foods);
 
 console.log(arr);
 
-var keyValuePair = {firstName:"Khizar", lastName:"Wakeel"};
+var keyValuePair = { firstName: "Khizar", lastName: "Wakeel" };
 console.log(keyValuePair);
 
 var a = "To be or not to be";
@@ -669,7 +669,7 @@ console.log(b);
 var a = ["To", "be", "or", "not", "to", "be"];
 
 var b = a.CharAt(4);
-console.log(b);0
+console.log(b); 0
 
 var str = "To be or not to be";
 var b = str.replace("be", "Hello");
@@ -860,15 +860,15 @@ function showMessage(name) {
 showMessage("Khizar! How are you doing?");
 
 function showMessage(name) {
-    console.log("Wellcome to our Website! =",name);
+    console.log("Wellcome to our Website! =", name);
 }
 showMessage(prompt("What is your name?"));
 
 function sum(a, b) {
     console.log(a + b);
 }
-sum(12,42);
-sum(6,6);
+sum(12, 42);
+sum(6, 6);
 sum(true)
 
 function findGrade(score) {
@@ -890,11 +890,11 @@ findGrade(89);
 findGrade(60);
 findGrade(40);
 
-function test () {
-console.log("Hello World");
+function test() {
+    console.log("Hello World");
 }
 var a = test();
-console.log("First Function =",a);
+console.log("First Function =", a);
 
 function test1() {
     return 45;
@@ -1057,7 +1057,7 @@ function sum() {
 }
 
 sum();
-console.log("A =",a);
+console.log("A =", a);
 
 a = 7;
 console.log("A =", a);
@@ -1189,11 +1189,11 @@ console.log(factorial(5));
 
 // Above Code will execute like this!
 
-1 * factorial(1 - 1);   1
-2 * factorial(2 - 1);   2
-3 * factorial(3 - 1);   6
-4 * factorial(4 - 1);   24
-5 * factorial(5 - 1);   120  // Result
+1 * factorial(1 - 1); 1
+2 * factorial(2 - 1); 2
+3 * factorial(3 - 1); 6
+4 * factorial(4 - 1); 24
+5 * factorial(5 - 1); 120  // Result
 
 var num = 6;
 var factorial = 1;
@@ -1403,7 +1403,7 @@ console.log(examPassed);
 
 var firstName = 23;
 var lastName;
-console.log(lastName,firstName);
+console.log(lastName, firstName);
 
 var name = null;
 console.log(name);
@@ -1530,14 +1530,14 @@ console.log(fullName);
 
 var question = "What is your Name?";
 var defaultAnswer = "Khizar";
-var yourName = prompt(question,defaultAnswer);
+var yourName = prompt(question, defaultAnswer);
 console.log(yourName);
 
 var question = "What is your age?";
 var age = prompt(question);
 var newAge = age + 2;
 
-console.log("NewAge =",newAge);
+console.log("NewAge =", newAge);
 
 var age = prompt("What is your age?");
 var num = 4;
@@ -1581,14 +1581,14 @@ var a = -5;
 var b = !a;
 var c = !!a;
 
-console.log("A = ",a);
-console.log("B = ",b);
-console.log("C = ",c);
+console.log("A = ", a);
+console.log("B = ", b);
+console.log("C = ", c);
 
 var age = 12;
 
 if (age > 9) {
-    console.log("Age =",age);
+    console.log("Age =", age);
 }
 
 var age = prompt("What is your age?");
@@ -1661,23 +1661,23 @@ else {
 
 var name = "";
 if (name) {
-    console.log("In If name =",name);
+    console.log("In If name =", name);
 }
-else{
-    console.log("In else name =",name);
+else {
+    console.log("In else name =", name);
 }
 
 var a = 0;
 var b = 8;
 
 var c = true && 0 && "cat";
-console.log("C = "+c);
+console.log("C = " + c);
 
 var a = 0;
 var b = 8;
 
 var c = " " || false || "cat";
-console.log("C = "+c);
+console.log("C = " + c);
 
 for (var i = 0; i < 3; i++) {
     console.log(i);
@@ -1801,7 +1801,7 @@ console.log(array);
 var a = array[2];
 console.log(a);
 
-var foods = ["Pizza","Burger","Snacks"];
+var foods = ["Pizza", "Burger", "Snacks"];
 console.log(foods);
 
 var foods = ["Pizza", "Burger", "Snacks"];
@@ -1828,10 +1828,10 @@ console.log(foods);
 
 Update
 
-var foods = ["Pizza","Burger","Snacks"];
-console.log("Before",foods[1]);
+var foods = ["Pizza", "Burger", "Snacks"];
+console.log("Before", foods[1]);
 foods[1] = "Sandwitch";
-console.log("After",foods[1]);
+console.log("After", foods[1]);
 foods[3] = "French Fries";
 console.log(foods);
 
@@ -1848,7 +1848,7 @@ console.log(foods);
 console.log(foods[4]);
 console.log(foods[7]);
 
-var foods = ["Pizza","Burger","Snacks"];
+var foods = ["Pizza", "Burger", "Snacks"];
 console.log(foods.length);
 
 var arr = [];
@@ -1864,7 +1864,7 @@ foods.push("Biryani");
 console.log(foods);
 
 var foods = [];
-foods.push("Pizza","Burger","Snacks");
+foods.push("Pizza", "Burger", "Snacks");
 foods.push("Sandwitch");
 
 console.log(foods[0]);
@@ -1885,17 +1885,17 @@ var a = 11;
 console.log(a);
 a++;
 console.log(a);
-a+5;
+a + 5;
 console.log(a);
 
 var name = "Khizar";
 
-alert("Welcome ",name);
+alert("Welcome ", name);
 alert("Welcome " + name);
 
 // Random Array
 
-var foods = ["Pizza","Burger","Snacks"];
+var foods = ["Pizza", "Burger", "Snacks"];
 console.log(foods[1]);
 
 foods[1] = "Sandwitch";
@@ -2006,29 +2006,29 @@ console.log(foods);
 foods.splice(1, 0, "Sanwitch", "Fries");
 console.log(foods);
 
-var foods = ["Pizza","Burger","Snacks"];
-foods.splice(1,2,"Sandwitch");
+var foods = ["Pizza", "Burger", "Snacks"];
+foods.splice(1, 2, "Sandwitch");
 console.log(foods);
 
-var foods = ["Pizza","Burger","Fries"];
+var foods = ["Pizza", "Burger", "Fries"];
 console.log(foods);
-var arr = foods.splice(2,2,"Sandwitch","Biryani","Roll");
+var arr = foods.splice(2, 2, "Sandwitch", "Biryani", "Roll");
 console.log(foods);
 console.log(arr);
 
-var foods = ["Pizza","Burger","Snacks","Sandwitch","Fries"];
+var foods = ["Pizza", "Burger", "Snacks", "Sandwitch", "Fries"];
 console.log(foods);
-var arr = foods.slice(1,4);
+var arr = foods.slice(1, 4);
 console.log(foods);
 console.log(arr);
 
-var foods = ["Pizza","Burger","Snacks","Sandwitch","Fries"];
+var foods = ["Pizza", "Burger", "Snacks", "Sandwitch", "Fries"];
 console.log(foods);
 var arr = foods.slice(2);
 console.log(foods);
 console.log(arr);
 
-var arr = ["Khziar","Wakeel","Ahad"];
+var arr = ["Khziar", "Wakeel", "Ahad"];
 console.log(arr);
 console.log(arr.length);
 
@@ -2040,9 +2040,9 @@ arr.shift(2);
 console.log(arr);
 console.log(arr.length);
 
-var a = ["Khizar","Ahad","Osama","Hassaan",];
+var a = ["Khizar", "Ahad", "Osama", "Hassaan",];
 
-var b = a.slice(1,3,"Ahmed");
+var b = a.slice(1, 3, "Ahmed");
 
 console.log(b);
 
@@ -2058,8 +2058,8 @@ var name2 = 'Mark';
 console.log(name2);
 
 var a = "Hello World";
-console.log("String =",a);
-console.log("String Length =",a.length);
+console.log("String =", a);
+console.log("String Length =", a.length);
 
 var a = "Hello \'World\'";
 console.log(a);
@@ -2146,7 +2146,7 @@ var a = "To be or not to be";
 var b = a.lastIndexOf("be");
 console.log(b);
 
-var a = ["Khizar","Ahad",45];
+var a = ["Khizar", "Ahad", 45];
 var b = a.indexOf(45);
 console.log(b);
 
@@ -2169,12 +2169,12 @@ console.log(b);
 console.log(str);
 
 var str = "To be or not to be";
-var b = str.replace(/to/i,"Hello");
+var b = str.replace(/to/i, "Hello");
 console.log(b);
 console.log(str);
 
 var str = "To be or not to be";
-var b = str.replace(/to/gi,"I");
+var b = str.replace(/to/gi, "I");
 console.log(b);
 
 var str = "To be or not to be";
@@ -2241,7 +2241,7 @@ var date = new Date();
 console.log(date);
 
 var dateObject = new Date();
-console.log("Date Object =",dateObject);
+console.log("Date Object =", dateObject);
 
 var dateObject = new Date("January 12 2029 10:15:15");
 console.log("Date Object =", dateObject);
@@ -2346,12 +2346,12 @@ city = city.toLowerCase();
 var flag = true;
 for (var i = 0; i < cleanestCities.length; i++) {
     if (cleanestCities[i] === city) {
-        console.log("Yes it's!","Find on Index",i);
+        console.log("Yes it's!", "Find on Index", i);
         flag = false;
         break;
     }
 }
-if(flag) {
+if (flag) {
     console.log("This is not clean!")
 }
 
@@ -2465,10 +2465,10 @@ function sum(a, b) {
 }
 sum(5, 7);
 
-function sum(showMessage,hello) {
-    console.log(showMessage,hello);
+function sum(showMessage, hello) {
+    console.log(showMessage, hello);
 }
-sum("Hello World",89);
+sum("Hello World", 89);
 
 console.log("Before Function");
 function showMessage() {
@@ -2489,7 +2489,7 @@ function multiply(num1, num2) {
     console.log("Num3 =", num3);
 }
 multiply(3, 6);
-multiply(4,7);
+multiply(4, 7);
 
 function showMessage(name) {
     console.log("Hello =", name);
@@ -2552,7 +2552,7 @@ function test() {
     return 45;
 }
 var a = test();
-console.log("Fucntion returned =",a);
+console.log("Fucntion returned =", a);
 
 function multiply(num1, num2) {
     return num1 * num2;
@@ -2563,7 +2563,7 @@ var b = multiply(4, 2);
 console.log(a);
 console.log(b);
 
-console.log(multiply(2,5));
+console.log(multiply(2, 5));
 
 function multiply(num1, num2) {
     return num2;
@@ -2688,7 +2688,7 @@ function sum(a, b) {
 }
 
 // var mul = multiply(8, 3);
-var add = sum(multiply(7, 3),6);
+var add = sum(multiply(7, 3), 6);
 // console.log("Multiply =", mul); // Output: Multiply = 24
 console.log("Addition =", add); // Output: Addition = 26
 
@@ -2777,7 +2777,7 @@ function sum() {
     console.log("A =", a);
 }
 sum();
-console.log("A =",a);
+console.log("A =", a);
 
 a = 7;
 b = 12 + 6;
@@ -2812,8 +2812,8 @@ console.log(sum(7, 18));
 
 console.log(sum);
 
-var square = function (num1,num2) { return num1 * num2; };
-var b = square(4,10);
+var square = function (num1, num2) { return num1 * num2; };
+var b = square(4, 10);
 console.log(b);
 
 var total = sum(7, 8);
@@ -2839,7 +2839,7 @@ console.log(a);
 
 var mul = multiply(3, 2);
 console.log("Mul =", mul);
-var add = sum(4,6);
+var add = sum(4, 6);
 console.log("Add =", add);
 
 var sum = function (a, b) { return a + b; };
@@ -3116,7 +3116,7 @@ for (var i = 0; i < firstName.length; i++) {
     console.log(firstName[i] + " = " + lastName[i]);
 }
 
-function practice(val){
+function practice(val) {
     if (val == 10) {
         var a = 12;
         console.log(a);
@@ -3147,7 +3147,7 @@ var evenArray = [];
 console.log(arr);
 // document.write(`Reverse Counting: ${arr.reverse()}<br/>`);
 console.log(arr.reverse());
-console.log("Array after reverse =",arr);
+console.log("Array after reverse =", arr);
 
 for (var i = 0; i < arr.length; i++) {
     if (arr[i] % 2 === 0) {
@@ -3156,13 +3156,13 @@ for (var i = 0; i < arr.length; i++) {
 }
 
 // document.write(`Even Counting: ${evenArray.reverse}<br/>`);
-console.log("New Even Array",evenArray);
+console.log("New Even Array", evenArray);
 
 var string = "KhizarWakeel";
-console.log(string.slice(1,6));
+console.log(string.slice(1, 6));
 
-var string = ["Khizar","Wakeel","Ali","Usman","Wakeel","Ali","Usman"];
-console.log(string.splice(1,6));
+var string = ["Khizar", "Wakeel", "Ali", "Usman", "Wakeel", "Ali", "Usman"];
+console.log(string.splice(1, 6));
 
 let name1 = "Khizar";
 console.log(name1);
@@ -3170,7 +3170,7 @@ console.log(name1);
 let name2 = 56;
 console.log(name1);
 
-var object = { name: "Khizar", age: 23, jobTitle: "Front-End Developer", Experience:"1 year"};
+var object = { name: "Khizar", age: 23, jobTitle: "Front-End Developer", Experience: "1 year" };
 console.log(object);
 
 var word = prompt("Please enter your word!").toUpperCase();
@@ -3232,7 +3232,7 @@ var data = {
     class: "Web Development",
     myNewObject: { name: "Usman", age: 23 },
     functionExample: function () {
-    console.log("Hello my first name is " + this.name + " my last name is " + this.lname);
+        console.log("Hello my first name is " + this.name + " my last name is " + this.lname);
     }
 }
 console.log(data.functionExample());
@@ -3322,7 +3322,7 @@ var pets1 = [
 
 console.log("Returned Number =", pets.push({ name: "Puppster", species: "Dog", age: 1 }));
 console.log("Origional Array =", pets);
-var  ourTest = pets1.map(nameOnly);
+var ourTest = pets1.map(nameOnly);
 
 function nameOnly(x) {
     return x.name;
@@ -3402,7 +3402,7 @@ function onlyBabies(x) {
 // let babyDogNames = pets.filter(onlyDogs).filter(onlyBabies).mapo(nameOnly);
 console.log(babyDogNames);
 
-document.addEventListener("click",function() {
+document.addEventListener("click", function () {
     alert("Hello World");
 });
 
@@ -3561,13 +3561,13 @@ console.log(arr);
 arr[1] = 100;
 console.log(arr);
 
-arr = [12,2432,3433];
+arr = [12, 2432, 3433];
 console.log(arr);
 
 const obj = {
-    name : "Khizar",
-    age : 23,
-    class : "BA Part-2",
+    name: "Khizar",
+    age: 23,
+    class: "BA Part-2",
     phone: "SamSung"
 }
 
@@ -3597,10 +3597,10 @@ var name = "Abdul";
 console.log(name)
 
 function helloWorld() {
-   var name1 = "Khizar";
-   console.log(name1);
-   name1 = "Owais";
-   console.log(name1);
+    var name1 = "Khizar";
+    console.log(name1);
+    name1 = "Owais";
+    console.log(name1);
 }
 
 helloWorld();
@@ -3610,10 +3610,10 @@ var name1; // Declare name1 in the outer scope
 
 function helloWorld() {
     console.log(name1)
-   name1 = "Khizar"; // Assign a value to name1
-   console.log(name1); // Output: Khizar
-   name1 = "Owais"; // Update the value of name1
-   console.log(name1); // Output: Owais
+    name1 = "Khizar"; // Assign a value to name1
+    console.log(name1); // Output: Khizar
+    name1 = "Owais"; // Update the value of name1
+    console.log(name1); // Output: Owais
 }
 
 helloWorld();
@@ -3639,7 +3639,7 @@ console.time("Start Here");
 
 // Perform time-consuming operations or calculations here
 for (let i = 0; i < 100000; i++) {
-  console.log("Hello world")
+    console.log("Hello world")
 }
 
 console.timeEnd("End Here");
@@ -3719,13 +3719,13 @@ let str1 = str.lastIndexOf("a")
 console.log(str1);
 
 let text = `lorem Dollar google intelligent google jshd jshdks
-jdhfsdhjmsn jhdssj jhsd ikshd ushd ujjdfh ${2+23 + 325 *56} jdhsj
+jdhfsdhjmsn jhdssj jhsd ikshd ushd ujjdfh ${2 + 23 + 325 * 56} jdhsj
                                                                                           jasdh.`
 console.log(text);
 
 name = `khizar`
 fatherName = `wakeel`;
-console.log(`${name,fatherName}`);
+console.log(`${name, fatherName}`);
 
 let pets1 = [
     { name: "Meowsalot", species: "Cat", age: 2 },
@@ -3788,7 +3788,7 @@ var numChars = str.length;
 for (var i = 0; i < numChars; i++) {
     if (str.slice(i, i + 2) === "  ") {
         alert("No double spaces!");
-       break;
+        break;
     }
 }
 
@@ -3857,7 +3857,7 @@ const printName1 = printName.bind([2 * 2 * 2 * 2 * 2, 625, 23, 23], 'Khizar', 'W
 
 printName1();
 
-document,addEventListener("click",function(){
+document, addEventListener("click", function () {
     alert("Thanks you for clicking!");
 })
 
@@ -3884,7 +3884,7 @@ let findFilter = finding.filter(
 
 console.log(findFilter);
 
-let myNumbers = [10, 500,500, 2000, 3];
+let myNumbers = [10, 500, 500, 2000, 3];
 let doubleNumbers = myNumbers.filter(x => x === 500).map(x => x * 2);
 console.log(doubleNumbers);
 
@@ -3942,8 +3942,8 @@ x.forEach((e) => {
 });
 
 let obj = {
-    name : "Khizar",
-    age : 23,
+    name: "Khizar",
+    age: 23,
 }
 
 console.log(Object.keys(obj))
@@ -4088,24 +4088,24 @@ test().then(result => {
 });
 
 async function fetchApi() {
-  try {
-    const api = await fetch("https://jsonplaceholder.typicode.com/todos/1");
-    console.log("API", api);
-    const json = await api.json();
-    return json;
-  } catch (error) {
-    console.log("Sorry Brooooo", error);
-  }
+    try {
+        const api = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+        console.log("API", api);
+        const json = await api.json();
+        return json;
+    } catch (error) {
+        console.log("Sorry Brooooo", error);
+    }
 }
 
 fetchApi().then((res) => {
-  console.log("JSON Response", res);
+    console.log("JSON Response", res);
 });
 
 for (var i = 0; i < 5; i++) {
-  setTimeout(() => {
-    console.log(i);
-  });
+    setTimeout(() => {
+        console.log(i);
+    });
 }
 
 console.log("Hello World");
@@ -4127,10 +4127,10 @@ let kilometerInAMile = 1.60934;
 let miles = prompt("Please enter a value in miles!");
 
 if (!isNaN(miles)) {
-  let kilometers = kilometerInAMile * miles;
-  console.log(kilometers);
+    let kilometers = kilometerInAMile * miles;
+    console.log(kilometers);
 } else {
-  console.log("Invalid input. Please enter a valid number of miles.");
+    console.log("Invalid input. Please enter a valid number of miles.");
 }
 
 // Convert Kilometers into Miles
@@ -4140,10 +4140,10 @@ let MileInAKilometer = 0.621371;
 let kilometers = prompt("Please enter a value in kilometers!");
 
 if (!isNaN(kilometers)) {
-  let miles = MileInAKilometer * kilometers;
-  console.log(miles);
+    let miles = MileInAKilometer * kilometers;
+    console.log(miles);
 } else {
-  console.log("Invalid input. Please enter a valid number of miles.");
+    console.log("Invalid input. Please enter a valid number of miles.");
 }
 
 var word = prompt("Enter your word!");
@@ -4151,29 +4151,29 @@ var word = prompt("Enter your word!");
 var check = "";
 
 for (var i = word.length - 1; i >= 0; i--) {
-  check += word[i];
-  //   console.log(word, check);
+    check += word[i];
+    //   console.log(word, check);
 }
 
 if (word === check) {
-  alert(`"${word}" is a Palindrome word!`);
+    alert(`"${word}" is a Palindrome word!`);
 } else {
-  alert(word + " is not a Palindrome word!");
+    alert(word + " is not a Palindrome word!");
 }
 
 document.write("Table <br />");
 for (var a = 1; a <= 100; a += 10) {
-  for (var b = a; b < a + 10; b++) {
-    document.write(b + " ");
-  }
-  document.write("<br />");
+    for (var b = a; b < a + 10; b++) {
+        document.write(b + " ");
+    }
+    document.write("<br />");
 }
 
 for (var a = 1; a <= 100; a = a + 10) {
-  for (var b = a; b < a + 10; b++) {
-    document.write(b + " "); // Add a space after each number
-  }
-  document.write("<br />");
+    for (var b = a; b < a + 10; b++) {
+        document.write(b + " "); // Add a space after each number
+    }
+    document.write("<br />");
 }
 
 function clickBtn() {
@@ -4181,11 +4181,11 @@ function clickBtn() {
 }
 
 function getName() {
-  let data = document.getElementById("inputData");
-  let finalData = data.value;
-  console.log(finalData);
-  data.value = "Khizar";
-  data.focus();
+    let data = document.getElementById("inputData");
+    let finalData = data.value;
+    console.log(finalData);
+    data.value = "Khizar";
+    data.focus();
 }
 
 getName()
@@ -4200,7 +4200,7 @@ setText()
 let isValue = true;
 
 if (isValue) {
-  let studentName = "Khizar";
+    let studentName = "Khizar";
 }
 
 console.log(studentName);
@@ -4211,9 +4211,9 @@ console.log(studentName);
 console.log(studentName);
 
 const obj = {
-    name:"Khizar",
-    age:24,
-    class:"Web3"
+    name: "Khizar",
+    age: 24,
+    class: "Web3"
 }
 
 console.log(obj.name);
@@ -4225,13 +4225,13 @@ let studentName = "John Doe";
 alert(studentName);
 
 let studentAge = 15;
-alert(studentAge+" years old");
+alert(studentAge + " years old");
 
 let course = "Certified Mobile Application Development";
 alert(course)
 
 let emailAdd = "khizarwakeel@gmail.com";
-alert("My Email Address is "+emailAdd);
+alert("My Email Address is " + emailAdd);
 
 document.write("<h1>Yah! I can write HTML content through JavaScript</h1>")
 
@@ -4242,7 +4242,7 @@ alert("I am " + age + " year old!");
 let birthYear;
 birthYear = 1999;
 
-document.write("My birth year is ",birthYear,"<br />");
+document.write("My birth year is ", birthYear, "<br />");
 document.write("Data type of my declared variable is number");
 
 let jsd = "Khi"
@@ -4274,23 +4274,23 @@ let div = 3 / 5;
 document.write("Div of " + num1 + " and " + num2 + " is " + div);
 
 let value;
-document.write("Value after variable declaration is: ",value)
+document.write("Value after variable declaration is: ", value)
 
 value = 5;
 value++
 
-document.write("<br /> Value is "+value)
+document.write("<br /> Value is " + value)
 
 value += 7;   // or value = value + 7
-document.write("<br /> Value is "+value)
+document.write("<br /> Value is " + value)
 
 value--
 
-document.write("<br /> Value is "+value)
+document.write("<br /> Value is " + value)
 
 value %= 3
 
-document.write("<br /> Re Value is "+value)
+document.write("<br /> Re Value is " + value)
 
 // Temprature Converter
 
@@ -4305,9 +4305,9 @@ const fahrenheitTemperature = (celsiusTemperature * 9) / 5 + 32;
 // document.write(`${celsiusTemperature}°C is ${fahrenheitTemperature}°F`);
 let getValue = `${celsiusTemperature}°C is ${fahrenheitTemperature}°F`
 
-let editedValue1 = getValue.slice(0,2);
-let editedValue2 = getValue.slice(3,11);
-let editedValue3 = getValue.slice(12,14);
+let editedValue1 = getValue.slice(0, 2);
+let editedValue2 = getValue.slice(3, 11);
+let editedValue3 = getValue.slice(12, 14);
 
 let updatedValue = editedValue1 + editedValue2 + editedValue3;
 document.write(updatedValue);
@@ -4318,7 +4318,7 @@ document.write(updatedValue);
 
 // let celsiusVsFahrenheit = celsiusTem + " C is " + FahrenheitTem + " F";
 
-console.log("Result is",celsiusVsFahrenheit);
+console.log("Result is", celsiusVsFahrenheit);
 
 let FahrenheitTem = 77;
 
@@ -4329,27 +4329,27 @@ let celsiusVsFahrenheit = FahrenheitTem + " F is " + celsiusTem + " C";
 console.log("Result is", celsiusVsFahrenheit);
 
 let totalCurrency = 10 * 155 + 25 * 41;
-console.log("Total Currency in PKR: "+totalCurrency)
+console.log("Total Currency in PKR: " + totalCurrency)
 
 let currentUsDollarInPkr = 155;
 let currentSauRiyal = 41;
 
 let userCurrency = prompt(
-  "Please enter which country currency are you converting to Pakistani Rupee! Saudia or USA"
+    "Please enter which country currency are you converting to Pakistani Rupee! Saudia or USA"
 );
 
 if (userCurrency === "usa") {
-  let userAmount = Number(prompt("Please enter number of Amount of US Dollar"));
-  let totalUsInPkr = userAmount * currentUsDollarInPkr;
-  document.write(userAmount + "$" + " is equal to " + totalUsInPkr + "Rs");
+    let userAmount = Number(prompt("Please enter number of Amount of US Dollar"));
+    let totalUsInPkr = userAmount * currentUsDollarInPkr;
+    document.write(userAmount + "$" + " is equal to " + totalUsInPkr + "Rs");
 } else if (userCurrency === "saudia") {
-  let userAmount = Number(
-    prompt("Please enter number of Amount of Saudian Riyal")
-  );
-  let totalSauInPkr = userAmount * currentSauRiyal;
-  document.write(userAmount + "R" + " is equal to " + totalSauInPkr + "Rs");
+    let userAmount = Number(
+        prompt("Please enter number of Amount of Saudian Riyal")
+    );
+    let totalSauInPkr = userAmount * currentSauRiyal;
+    document.write(userAmount + "R" + " is equal to " + totalSauInPkr + "Rs");
 } else {
-  document.write("Please enter correct Currency!");
+    document.write("Please enter correct Currency!");
 }
 
 const usdToPkrRate = 155;
@@ -4370,39 +4370,39 @@ console.log("b is " + b);  // 0 , 1 ,  // 0
 console.log("result is " + result); // 1 - 0 + 1 + 1 // 3
 
 do {
-  let userInput = prompt("Please enter your city!");
+    let userInput = prompt("Please enter your city!");
 
-  if (userInput === "karachi") {
-    console.log('"Welcome to city of lights"');
-  } else if (userInput === "hyderabad") {
-    console.log('"Welcome to city of Birds"');
-  } else if (userInput === null || " ") {
-    console.log("You did not provide any city!");
-    break;
-  } else {
-    console.log(userInput + " is a beautiful city!");
-  }
-  var doContinue = prompt("Do you want to continue! Press y");
+    if (userInput === "karachi") {
+        console.log('"Welcome to city of lights"');
+    } else if (userInput === "hyderabad") {
+        console.log('"Welcome to city of Birds"');
+    } else if (userInput === null || " ") {
+        console.log("You did not provide any city!");
+        break;
+    } else {
+        console.log(userInput + " is a beautiful city!");
+    }
+    var doContinue = prompt("Do you want to continue! Press y");
 } while (doContinue === "y");
 
 let doContinue = "y";
 
 while (doContinue === "y") {
-  let userInput = prompt("Please enter your city!");
-  console.log(userInput);
+    let userInput = prompt("Please enter your city!");
+    console.log(userInput);
 
-  if (userInput.trim() === "karachi") {
-    console.log('"Welcome to the city of lights"');
-  } else if (userInput.trim() === "hyderabad") {
-    console.log('"Welcome to the city of Birds"');
-  } else if (userInput === null || userInput.trim() === "") {
-    console.log("You did not provide any city!");
-    break
-  } else {
-    console.log(userInput.trim() + " is a beautiful city!");
-  }
+    if (userInput.trim() === "karachi") {
+        console.log('"Welcome to the city of lights"');
+    } else if (userInput.trim() === "hyderabad") {
+        console.log('"Welcome to the city of Birds"');
+    } else if (userInput === null || userInput.trim() === "") {
+        console.log("You did not provide any city!");
+        break
+    } else {
+        console.log(userInput.trim() + " is a beautiful city!");
+    }
 
-  doContinue = prompt("Do you want to continue? Press y");
+    doContinue = prompt("Do you want to continue? Press y");
 }
 
 let doContinue = "y";
@@ -4411,32 +4411,32 @@ let yellowColorMessage = "Ready to Move!";
 let greenColorMessage = "Move now!";
 
 while (doContinue === "y") {
-  let userInput = prompt("Enter color of traffic signals!");
-  if (userInput === "red") {
-    alert(userInput + " color means you " + redColorMessage);
-  } else if (userInput === "yellow") {
-    alert(userInput + " color means you " + yellowColorMessage);
-  } else if (userInput === "green") {
-    alert(userInput + " color means you " + greenColorMessage);
-  } else if (userInput === "" || userInput === null) {
-    alert("You did not provide any color!");
-    break;
-  } else {
-    alert("This is not the color of Trafic Signals!");
-    break;
-  }
-  doContinue = prompt("Do you want to continue? Press y");
-  if (doContinue === null || doContinue === "") {
-    console.log("Thank you! see you again...");
-  }
+    let userInput = prompt("Enter color of traffic signals!");
+    if (userInput === "red") {
+        alert(userInput + " color means you " + redColorMessage);
+    } else if (userInput === "yellow") {
+        alert(userInput + " color means you " + yellowColorMessage);
+    } else if (userInput === "green") {
+        alert(userInput + " color means you " + greenColorMessage);
+    } else if (userInput === "" || userInput === null) {
+        alert("You did not provide any color!");
+        break;
+    } else {
+        alert("This is not the color of Trafic Signals!");
+        break;
+    }
+    doContinue = prompt("Do you want to continue? Press y");
+    if (doContinue === null || doContinue === "") {
+        console.log("Thank you! see you again...");
+    }
 }
 
 let age = 25;
 console.log("Before Age = " + age);
 
 function ageChanged() {
-  age += 1;
-  console.log("In Function Age = " + age);
+    age += 1;
+    console.log("In Function Age = " + age);
 }
 
 console.log("After Function Age = " + age);
@@ -4444,12 +4444,12 @@ console.log("After Function Age = " + age);
 var a = 4;
 
 if (++a === 5) {
-  alert("Given condition for variable a is true");
+    alert("Given condition for variable a is true");
 }
 
 var b = 82;
 
-if(b++ === 83) {
+if (b++ === 83) {
     alert("given condition for variable b is true");
 }
 else {
@@ -4459,16 +4459,16 @@ else {
 var c = 12;
 
 if (c++ === 13) {
-  alert("Condition 1 is true!");
+    alert("Condition 1 is true!");
 }
 if (c === 13) {
-  alert("Condition 2 is True!");
+    alert("Condition 2 is True!");
 }
 if (++c < 14) {
-  alert("Condition 3 is True!");
+    alert("Condition 3 is True!");
 }
 if (c === 14) {
-  alert("Condition 4 is True!");
+    alert("Condition 4 is True!");
 }
 
 var materialCost = 20000;
@@ -4476,17 +4476,17 @@ var labourCost = 2000;
 
 var totalCost = materialCost + labourCost;
 if (totalCost === labourCost + materialCost) {
-  alert("The cost Equals!");
+    alert("The cost Equals!");
 }
 if (true) {
-  alert("True");
+    alert("True");
 }
 if (false) {
-  alert("flase");
+    alert("flase");
 }
 
 if ("Car" > "Cat") {
-  alert("Car is smaller than Cat!");
+    alert("Car is smaller than Cat!");
 }
 
 var stdName = prompt("Enter your Name!");
@@ -4500,18 +4500,18 @@ var percentage = (obtainedMarks / totalMarks) * 100;
 var roundedPer = Math.round(percentage);
 
 if (roundedPer >= 80) {
-  var grade = "A-one";
-  var remarks = "Excellent";
-  var reward = "200$";
+    var grade = "A-one";
+    var remarks = "Excellent";
+    var reward = "200$";
 } else if (roundedPer >= 70) {
-  var grade = "A";
-  var remarks = "Good";
+    var grade = "A";
+    var remarks = "Good";
 } else if (roundedPer >= 60) {
-  var grade = "B";
-  var remarks = "You need to improve";
+    var grade = "B";
+    var remarks = "You need to improve";
 } else {
-  var grade = "Fail!";
-  var remarks = "Sorry";
+    var grade = "Fail!";
+    var remarks = "Sorry";
 }
 
 console.log("Marks Sheet");
@@ -4522,7 +4522,7 @@ console.log("Percentage :", roundedPer + "%");
 console.log("Grade :", grade);
 console.log("Remarks :", remarks);
 if (percentage >= 80) {
-  console.log("Reward :", reward);
+    console.log("Reward :", reward);
 }
 
 var stdName = prompt("Enter your Name!");
@@ -4538,18 +4538,18 @@ var roundedPer = Math.round(percentage);
 var grade, remarks, reward;
 
 if (roundedPer >= 80) {
-  grade = "A-one";
-  remarks = "Excellent";
-  reward = "200$";
+    grade = "A-one";
+    remarks = "Excellent";
+    reward = "200$";
 } else if (roundedPer >= 70) {
-  grade = "A";
-  remarks = "Good";
+    grade = "A";
+    remarks = "Good";
 } else if (roundedPer >= 60) {
-  grade = "B";
-  remarks = "You need to improve";
+    grade = "B";
+    remarks = "You need to improve";
 } else {
-  grade = "Fail!";
-  remarks = "Sorry";
+    grade = "Fail!";
+    remarks = "Sorry";
 }
 
 document.getElementById("stdName").textContent = stdName;
@@ -4560,7 +4560,7 @@ document.getElementById("grade").textContent = grade;
 document.getElementById("remarks").textContent = remarks;
 
 if (percentage >= 80) {
-  document.getElementById("reward").textContent = reward;
+    document.getElementById("reward").textContent = reward;
 }
 else {
     document.getElementById("reward").textContent = 0;
@@ -4576,30 +4576,30 @@ else {
     console.log("Try Again!");
 }
 
-if(user === secretNumber + 1) {
+if (user === secretNumber + 1) {
     console.log("Close enough to the correct answer.")
 }
 
 const secretNumber = Math.floor(Math.random() * 10) + 1;
 
 const userGuess = parseInt(
-  prompt("Guess the secret number (between 1 and 10):")
+    prompt("Guess the secret number (between 1 and 10):")
 );
 
 if (userGuess === secretNumber) {
-  console.log("Bingo! Correct answer.");
+    console.log("Bingo! Correct answer.");
 } else if (userGuess === secretNumber - 1 || userGuess === secretNumber + 1) {
-  console.log("Close enough to the correct answer.");
+    console.log("Close enough to the correct answer.");
 } else {
-  console.log(`Sorry, the secret number was ${secretNumber}. Try again!`);
+    console.log(`Sorry, the secret number was ${secretNumber}. Try again!`);
 }
 
 var userInput = Number(prompt("Please enter the Number!"));
 
 if (userInput % 2 === 0) {
-  console.log(userInput + " is a Even Number!");
+    console.log(userInput + " is a Even Number!");
 } else {
-  console.log(userInput + " is a Odd Number!");
+    console.log(userInput + " is a Odd Number!");
 }
 
 var firstNum = Number(prompt("Please enter your first number!"));
@@ -4607,58 +4607,58 @@ var operator = prompt("Please enter the operator!");
 var secondNum = Number(prompt("Please enter your second number!"));
 
 if (operator === "+") {
-  var result = firstNum + secondNum;
-  console.log(
-    "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
-  );
+    var result = firstNum + secondNum;
+    console.log(
+        "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
+    );
 } else if (operator === "-") {
-  var result = firstNum - secondNum;
-  console.log(
-    "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
-  );
+    var result = firstNum - secondNum;
+    console.log(
+        "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
+    );
 } else if (operator === "*") {
-  var result = firstNum * secondNum;
-  console.log(
-    "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
-  );
+    var result = firstNum * secondNum;
+    console.log(
+        "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
+    );
 } else if (operator === "/") {
-  var result = firstNum / secondNum;
-  console.log(
-    "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
-  );
+    var result = firstNum / secondNum;
+    console.log(
+        "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
+    );
 } else if (operator === "%") {
-  var result = firstNum % secondNum;
-  console.log(
-    "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
-  );
+    var result = firstNum % secondNum;
+    console.log(
+        "Result = " + firstNum + " " + operator + " " + secondNum + " = " + result
+    );
 } else {
-  console.log("Please enter the correct number!");
+    console.log("Please enter the correct number!");
 }
 
 var userInput = Number(prompt("Please enter the number to check!"));
 
 if (userInput > 0) {
-  console.log(userInput + " is a Positive Number!");
+    console.log(userInput + " is a Positive Number!");
 } else if (userInput < 0) {
-  console.log(userInput + " is a Negative Number!");
+    console.log(userInput + " is a Negative Number!");
 } else if (userInput === 0) {
-  console.log("You enter the " + userInput + " number!");
+    console.log("You enter the " + userInput + " number!");
 } else {
-  console.log("Only numbers allow!");
+    console.log("Only numbers allow!");
 }
 
 var userInput = prompt("Please enter alphabet!");
 
 if (
-  userInput.toLowerCase() === "a" ||
-  userInput.toLowerCase() === "e" ||
-  userInput.toLowerCase() === "i" ||
-  userInput.toLowerCase() === "o" ||
-  userInput.toLowerCase() === "u"
+    userInput.toLowerCase() === "a" ||
+    userInput.toLowerCase() === "e" ||
+    userInput.toLowerCase() === "i" ||
+    userInput.toLowerCase() === "o" ||
+    userInput.toLowerCase() === "u"
 ) {
-  console.log("Wow! " + userInput + " is a vowel!");
+    console.log("Wow! " + userInput + " is a vowel!");
 } else {
-  console.log("Sorry! " + userInput + " is a consonant!");
+    console.log("Sorry! " + userInput + " is a consonant!");
 }
 
 var correctPass = "admin123";
@@ -4666,40 +4666,40 @@ var correctPass = "admin123";
 var userPass = prompt("Enter the password!");
 
 if (userPass === "") {
-  var againPass = prompt("Please enter the password!");
-  if (correctPass === againPass) {
-    console.log("Correct.. successfully login!");
-  }
+    var againPass = prompt("Please enter the password!");
+    if (correctPass === againPass) {
+        console.log("Correct.. successfully login!");
+    }
 } else if (correctPass === userPass) {
-  console.log(
-    "Correct! The password you entered matches the original password."
-  );
+    console.log(
+        "Correct! The password you entered matches the original password."
+    );
 } else {
-  console.log("Incorrect password!");
+    console.log("Incorrect password!");
 }
 
 var time = Number(prompt("Please enter your time"));
 
 if (time >= 0 && time < 1200) {
-  console.log("Good Morning!");
+    console.log("Good Morning!");
 } else if (time >= 1200 && time < 1700) {
-  console.log("Good Afternoon!");
+    console.log("Good Afternoon!");
 } else if (time >= 1700 && time < 2100) {
-  console.log("Good Evening!");
+    console.log("Good Evening!");
 } else if (time >= 2100 && time < 2359) {
-  console.log("Good Night!");
+    console.log("Good Night!");
 } else {
-  console.log("Please enter correct Time!");
+    console.log("Please enter correct Time!");
 }
 
 function convertTo12HourFormat(time24) {
     // Extract the hours and minutes from the input time string
     const [hours, minutes] = time24.split(':').map(Number);
-    console.log(hours,"Hours")
-    console.log(minutes,"Minutes")
+    console.log(hours, "Hours")
+    console.log(minutes, "Minutes")
 
     if (isNaN(hours) || isNaN(minutes) || hours < 0 || hours > 23 || minutes < 0 || minutes > 59) {
-      return "Invalid time format";
+        return "Invalid time format";
     }
 
     // Determine whether it's AM or PM
@@ -4707,33 +4707,33 @@ function convertTo12HourFormat(time24) {
 
     // Convert to 12-hour format
     const hours12 = hours % 12 || 12; // Handle midnight (0) and noon (12)
-    console.log(hours12,"hours");
+    console.log(hours12, "hours");
 
     // Format the time in 12-hour format
     const time12 = `${hours12}:${minutes.toString().padStart(2, '0')} ${period}`;
 
     return time12;
-  }
+}
 
-  // Example usage
-  const time24Hour = "15:00"; // Example input in 24-hour format
-  const time12Hour = convertTo12HourFormat(time24Hour);
-  console.log(`Converted time: ${time12Hour}`);
+// Example usage
+const time24Hour = "15:00"; // Example input in 24-hour format
+const time12Hour = convertTo12HourFormat(time24Hour);
+console.log(`Converted time: ${time12Hour}`);
 
 var availEdu = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
 var startingNum = 1;
 
 for (i = 0; i < availEdu.length; i++) {
-  var num = startingNum + i;
-  console.log(num + ") " + availEdu[i]);
+    var num = startingNum + i;
+    console.log(num + ") " + availEdu[i]);
 }
 
 var newArray = availEdu.map((i) => i);
 console.log(newArray);
 
-availEdu.map((ele, ind,array) => console.log(`${ind + 1}) ${ele}`));
+availEdu.map((ele, ind, array) => console.log(`${ind + 1}) ${ele}`));
 
-availEdu.map((ele, ind,array) => console.log(`${ind + 1}) ${ele} ${array[0]}`));
+availEdu.map((ele, ind, array) => console.log(`${ind + 1}) ${ele} ${array[0]}`));
 
 var stdNames = ["Khizar", "Ahad", "Wakeel"];
 
@@ -4746,30 +4746,30 @@ var ahadPer = (230 / 500) * 100 + "%";
 var wakeelPer = (480 / 500) * 100 + "%";
 
 console.log(
-  "Score of " + stdNames[0] + " is " + stdScore[0] + ". Percentage: " + khizarPer
+    "Score of " + stdNames[0] + " is " + stdScore[0] + ". Percentage: " + khizarPer
 );
 console.log(
-   "Score of " + stdNames[1] + " is " + stdScore[1] + ". Percentage: " + ahadPer);
-  console.log(
+    "Score of " + stdNames[1] + " is " + stdScore[1] + ". Percentage: " + ahadPer);
+console.log(
     "Score of " + stdNames[2] + " is " + stdScore[2] + ". Percentage: " + wakeelPer
-  );
+);
 
 const studentNames = ["Khizar", "Ahad", "Wakeel"];
 
 const studentScores = [320, 230, 480];
 
 function calculatePercentage(score) {
-  return (score / 500) * 100;
+    return (score / 500) * 100;
 }
 
 for (let i = 0; i < studentNames.length; i++) {
-  const name = studentNames[i];
-  const score = studentScores[i];
-  const percentage = calculatePercentage(score);
+    const name = studentNames[i];
+    const score = studentScores[i];
+    const percentage = calculatePercentage(score);
 
-  console.log(`${name}'s score: ${score}`);
-  console.log(`${name}'s percentage: ${percentage}%`);
-  console.log("-------------------");
+    console.log(`${name}'s score: ${score}`);
+    console.log(`${name}'s percentage: ${percentage}%`);
+    console.log("-------------------");
 }
 
 var colorNames = ["red", "green", "blue"];
@@ -4797,7 +4797,7 @@ console.log(colorNames);
 
 console.log("After Array");
 
-colorNames.unshift("pink",'yellow');
+colorNames.unshift("pink", 'yellow');
 
 console.log(colorNames);
 
@@ -4815,9 +4815,9 @@ console.log(colorNames);
 
 console.log("After Array");
 
-var newArray = colorNames.splice(8,0,"green")
+var newArray = colorNames.splice(8, 0, "green")
 console.log(newArray);
-console.log("Array Length",colorNames.length);
+console.log("Array Length", colorNames.length);
 
 const colorNamed = ["red", "blue", "yellow"];
 
@@ -4833,13 +4833,13 @@ const userColorsList = [];
 let continueEntering = true;
 
 while (continueEntering) {
-  const userColors = prompt("Add Colors (or type 'stop' to end or cancel):");
+    const userColors = prompt("Add Colors (or type 'stop' to end or cancel):");
 
-  if (userColors.toLowerCase() === "stop") {
-    continueEntering = false;
-  } else {
-    userColorsList.push(userColors);
-  }
+    if (userColors.toLowerCase() === "stop") {
+        continueEntering = false;
+    } else {
+        userColorsList.push(userColors);
+    }
 }
 
 console.log("User inputs Colors:", userColorsList);
@@ -4850,7 +4850,7 @@ console.log("Origional Array", colorNames);
 
 var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
 
-var slectedCites = cities.slice(2,4);
+var slectedCites = cities.slice(2, 4);
 console.log(slectedCites)
 
 var cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
@@ -4867,9 +4867,9 @@ const cities1 = ["New York", "Los Angeles", "Chicago", "San Francisco", "Miami"]
 const selectedCities1 = [];
 
 for (let i = 0; i < 3; i++) {
-  if (i < cities1.length) {
-    selectedCities1.push(cities1[i]);
-  }
+    if (i < cities1.length) {
+        selectedCities1.push(cities1[i]);
+    }
 }
 console.log("Selected Cities:", selectedCities1);
 
@@ -4885,17 +4885,17 @@ var arr1 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 var uniqueArr = [];
 
 for (var i = 0; i < arr1.length; i++) {
-  if (uniqueArr.indexOf(arr1[i]) === -1) {
-    uniqueArr.push(arr1[i]);
-    console.log("In Loop",uniqueArr)
-  }
-//   console.log("Outside If",uniqueArr)
+    if (uniqueArr.indexOf(arr1[i]) === -1) {
+        uniqueArr.push(arr1[i]);
+        console.log("In Loop", uniqueArr)
+    }
+    //   console.log("Outside If",uniqueArr)
 }
 
-console.log("Unique Elements",uniqueArr);
+console.log("Unique Elements", uniqueArr);
 
 function removeDuplicates(arr) {
-  return arr.filter((item, index) => arr.indexOf(item) === index);
+    return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
 var arr1 = [3, "a", "a", "a", 2, 3, "a", 3, "a", 2, 4, 9, 3];
@@ -4907,54 +4907,54 @@ var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
 var o = ["th", "st", "nd", "rd"];
 
 for (i = 0; i < aCities.length; i++) {
-  if (i == 0) {
-    console.log(i + 1 + o[1] + " choice is " + aCities[0]);
-  }
-  if (i == 1) {
-    console.log(i + 1 + o[2] + " choice is " + aCities[1]);
-  }
-  if (i == 2) {
-    console.log(i + 1 + o[3] + " choice is " + aCities[2]);
-  }
-  if (i == 3) {
-    console.log(i + 1 + o[0] + " choice is " + aCities[3]);
-  }
+    if (i == 0) {
+        console.log(i + 1 + o[1] + " choice is " + aCities[0]);
+    }
+    if (i == 1) {
+        console.log(i + 1 + o[2] + " choice is " + aCities[1]);
+    }
+    if (i == 2) {
+        console.log(i + 1 + o[3] + " choice is " + aCities[2]);
+    }
+    if (i == 3) {
+        console.log(i + 1 + o[0] + " choice is " + aCities[3]);
+    }
 }
 
 var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
 var o = ["st", "nd", "rd", "th"];
 
 for (i = 0; i < aCities.length; i++) {
-  var ordinal = (i + 1) + (i < 3 ? o[i] : o[3]);
-  console.log(ordinal + " choice is " + aCities[i]);
+    var ordinal = (i + 1) + (i < 3 ? o[i] : o[3]);
+    console.log(ordinal + " choice is " + aCities[i]);
 }
 
 var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
 var o = ["st", "nd", "rd", "th"];
 
 for (i = 0; i < aCities.length; i++) {
-  var ordinal;
-  if (i === 0) {
-    ordinal = (i + 1) + o[0];
-  } else if (i === 1) {
-    ordinal = (i + 1) + o[1];
-  } else if (i === 2) {
-    ordinal = (i + 1) + o[2];
-  } else {
-    ordinal = (i + 1) + o[3];
-  }
-  console.log(ordinal + " choice is " + aCities[i]);
+    var ordinal;
+    if (i === 0) {
+        ordinal = (i + 1) + o[0];
+    } else if (i === 1) {
+        ordinal = (i + 1) + o[1];
+    } else if (i === 2) {
+        ordinal = (i + 1) + o[2];
+    } else {
+        ordinal = (i + 1) + o[3];
+    }
+    console.log(ordinal + " choice is " + aCities[i]);
 }
 
 var aCities = ["Karachi", "Lahore", "Islamabad", "Faisalabad"];
 var o = ["th", "st", "nd", "rd"];
 
 for (var i = 0; i < aCities.length; i++) {
-  console.log((i + 1) + o[i] + " choice is " + aCities[i]);
+    console.log((i + 1) + o[i] + " choice is " + aCities[i]);
 }
 
-var a = [10,20,4,40,60,70]
-var b = [1,2,3,4,5,6,7,8,9,10]
+var a = [10, 20, 4, 40, 60, 70]
+var b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 var newArray = [];
 
@@ -4966,45 +4966,45 @@ var result = [];
 
 // Add elements from the first array to the result array
 for (var i = 0; i < a.length; i++) {
-  if (result.indexOf(a[i]) === -1) {
-    result.push(a[i]);
-  }
+    if (result.indexOf(a[i]) === -1) {
+        result.push(a[i]);
+    }
 }
 
 // Add elements from the second array to the result array
 for (var j = 0; j < b.length; j++) {
-  if (result.indexOf(b[j]) === -1) {
-    result.push(b[j]);
-  }
+    if (result.indexOf(b[j]) === -1) {
+        result.push(b[j]);
+    }
 }
 
 console.log(result);
 
 // Sort the result in ascending order
 result.sort(function (a, b) {
-  return a - b;
+    return a - b;
 });
 
 console.log(result); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 40, 60, 70]
 
- console.log("Hello1");
-  setTimeout(() => {
+console.log("Hello1");
+setTimeout(() => {
     console.log("HEllo2");
-  }, 0);
-  console.log("Hello3");
+}, 0);
+console.log("Hello3");
 
 let Value = document.getElementsByClassName("ourClass");
 console.log(Value);
 
 let x = {
-  value: 1,
-  toString: function () {
-    return this.value++;
-  },
+    value: 1,
+    toString: function () {
+        return this.value++;
+    },
 };
 
 if (x == 1 && x == 2 && x == 3) {
-  console.log("Wow you did it!");
+    console.log("Wow you did it!");
 }
 
 let p = document.createElement("p");
@@ -5014,67 +5014,67 @@ let toAddDom = document.querySelector(".domPractice");
 toAddDom.appendChild(p);
 
 let inputTime = prompt(
-  "Enter time in 24-hour clock format"
+    "Enter time in 24-hour clock format"
 );
 let hour = parseInt(inputTime.substring(0, 2));
 let minute = inputTime.substring(2);
 
 if (hour >= 0 && hour < 12) {
-  if (hour === 0) {
-    console.log(`12:${minute} AM`);
-  } else {
-    console.log(`${hour}:${minute} AM`);
-  }
+    if (hour === 0) {
+        console.log(`12:${minute} AM`);
+    } else {
+        console.log(`${hour}:${minute} AM`);
+    }
 } else {
-  if (hour === 12) {
-    console.log(`12:${minute} PM`);
-  } else {
-    console.log(`${hour - 12}:${minute} PM`);
-  }
+    if (hour === 12) {
+        console.log(`12:${minute} PM`);
+    } else {
+        console.log(`${hour - 12}:${minute} PM`);
+    }
 }
 
 for (let i = 1; i <= 5; i++) {
-  for (let j = 1; j <= i; j++) {
-    document.write(j+" ");
-  }
-  document.write("<br />");
+    for (let j = 1; j <= i; j++) {
+        document.write(j + " ");
+    }
+    document.write("<br />");
 }
 
 for (let i = 1; i <= 5; i++) {
-  for (let j = 1; j <= i; j++) {
-    document.write("* ");
-  }
-  document.write("<br />");
+    for (let j = 1; j <= i; j++) {
+        document.write("* ");
+    }
+    document.write("<br />");
 }
 
 for (let i = 5; i >= 1; i--) {
-  for (let j = 5; j >= i; j--) {
-    document.write(j + " ");
-  }
-  document.write("<br />");
+    for (let j = 5; j >= i; j--) {
+        document.write(j + " ");
+    }
+    document.write("<br />");
 }
 
 for (let i = 1; i <= 5; i++) {
-  for (let j = 1; j <= 5; j++) {
-    document.write(j + " ");
-  }
-  document.write("<br />");
+    for (let j = 1; j <= 5; j++) {
+        document.write(j + " ");
+    }
+    document.write("<br />");
 }
 
 let word = prompt("Enter your word");
 let check = "";
 
 for (let i = word.length - 1; i >= 0; i--) {
-  check += word[i];
-  console.log(word[i]);
+    check += word[i];
+    console.log(word[i]);
 }
 console.log(word, check);
 
 if (word === check) {
-  console.log(word, "is Palindrome word");
+    console.log(word, "is Palindrome word");
 }
 else {
-  console.log(word, "is not a Palindrome word");
+    console.log(word, "is not a Palindrome word");
 }
 
 // Finding missing numnber
@@ -5167,15 +5167,15 @@ console.log(filteredModel.colors[2]);
 var person = {
     name: "Alice",
     age: 25
-  };
+};
 
-  Object.prototype.greet = function() {
+Object.prototype.greet = function () {
     console.log("Hello!");
-  };
+};
 
-  for (var key in person) {
+for (var key in person) {
     console.log(key); // Output: name, age, greet
-  }
+}
 
 for (var i = 0; i < 5; i++) {
     setTimeout(() => {
@@ -5188,7 +5188,7 @@ for (var i = 0; i < 5; i++) {
 const randomColorUtility = (length) => {
     let randomColor = Math.floor(Math.random() * length);
     console.log(randomColor);
-    
+
     return randomColor;
 };
 
@@ -5198,14 +5198,25 @@ const handleCreateRandomHexColor = () => {
     for (let i = 0; i < 6; i++) {
         hexColor += hex[randomColorUtility(hex.length)];
         console.log(hexColor);
-        
+
     }
     console.log(hexColor);
 };
 
-    const handleCreateRandomRgbColor = () => {
-        const r = randomColorUtility(256);
-        const g = randomColorUtility(256);
-        const b = randomColorUtility(256);
-        console.log(`rgb(${r},${g},${b})`);
-    };
+const handleCreateRandomRgbColor = () => {
+    const r = randomColorUtility(256);
+    const g = randomColorUtility(256);
+    const b = randomColorUtility(256);
+    console.log(`rgb(${r},${g},${b})`);
+};
+
+// var Let Diff
+
+function sayHi() {
+    console.log(name);
+    console.log(age);
+    var name = 'Lydia';
+    let age = 21;
+}
+
+sayHi();
