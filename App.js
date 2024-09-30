@@ -5209,14 +5209,3 @@ const handleCreateRandomRgbColor = () => {
     const b = randomColorUtility(256);
     console.log(`rgb(${r},${g},${b})`);
 };
-
-// var Let Diff
-
-function sayHi() {
-    console.log(name);
-    console.log(age);
-    var name = 'Lydia';
-    let age = 21;
-}
-
-sayHi();
