@@ -5209,3 +5209,11 @@ const handleCreateRandomRgbColor = () => {
     const b = randomColorUtility(256);
     console.log(`rgb(${r},${g},${b})`);
 };
+
+// boolean multiply boolean
+
+const valCalculate = (val) => {
+    console.log(val * val);
+}
+
+valCalculate(true)
