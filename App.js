@@ -5217,3 +5217,12 @@ const valCalculate = (val) => {
 }
 
 valCalculate(true)
+
+// Ternary Operator
+
+const formatText = (text) => {
+    return text ? text.toUpperCase() : 'No text provided';
+};
+
+console.log(formatText('hello'));
+console.log(formatText(''));  
